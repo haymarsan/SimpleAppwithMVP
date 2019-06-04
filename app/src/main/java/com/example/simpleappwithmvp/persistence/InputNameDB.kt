@@ -1,10 +1,11 @@
-package com.example.simpleappwithmvp.data.persistence
+package com.example.simpleappwithmvp.persistence
 
 import android.arch.persistence.room.Database
 import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
 import android.content.Context
 import com.example.simpleappwithmvp.data.vos.InputNameVO
+import com.example.simpleappwithmvp.persistence.dao.InputNameDao
 
 
 @Database(entities = [InputNameVO::class], version = 1)
