@@ -12,5 +12,6 @@ interface InputNameDao {
     fun getInputName():InputNameVO
 
     @Insert
-    fun saveInputName( inputNameVO: InputNameVO): Long
+    fun saveInputName(name: String): Long
+
 }

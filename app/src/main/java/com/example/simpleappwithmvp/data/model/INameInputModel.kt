@@ -2,9 +2,9 @@ package com.example.simpleappwithmvp.data.model
 
 import com.example.simpleappwithmvp.data.vos.InputNameVO
 
-interface INameInput {
+interface INameInputModel {
 
     fun getInputName():InputNameVO
-    fun insertInputName(name:String):InputNameVO
+    fun insertInputName(name: String)
 
 }
